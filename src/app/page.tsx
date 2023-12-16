@@ -37,7 +37,11 @@ const closeModal = () => {
   setVisible(false);
 }
   return (
+<<<<<<< HEAD
     <main className="flex h-screen w-screen items-center justify-center md:p-20">
+=======
+    <main className="h-screen w-screen items-center justify-center md:p-20">
+>>>>>>> cb3015786fffb6b138533ffb1ee6953d937dec18
       <Modal text={activity} visible={modalVisible} close={closeModal} />
       <div className="flex w-full h-full items-center justify-center">
         <div className="flex w-full h-full overflow-hidden justify-center h-full aspect-square bg-black">
