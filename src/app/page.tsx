@@ -40,7 +40,7 @@ const closeModal = () => {
     <main className="flex h-screen w-screen items-center justify-center md:p-20">
       <Modal text={activity} visible={modalVisible} close={closeModal} />
       <div className="flex w-full h-full items-center justify-center">
-        <div className="flex w-full h-full overflow-hidden justify-center h-full aspect-square bg-black">
+        <div className="flex w-full h-full  justify-center h-full aspect-square bg-black">
           <WheelComponent
             segments={segments}
             segColors={segColors}
